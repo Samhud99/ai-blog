@@ -9,7 +9,7 @@ export default function Home() {
       {/* Header */}
       <header className="mb-16 max-w-2xl">
         <p className="section-label mb-4">Archive</p>
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight mb-6">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight mb-6 font-bold text-coral">
           Essays on artificial intelligence.
         </h1>
         <p className="text-text-muted text-lg leading-relaxed">
