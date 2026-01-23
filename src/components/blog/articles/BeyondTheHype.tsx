@@ -10,7 +10,7 @@ export function BeyondTheHype() {
       </p>
 
       <p>
-        Beyond the buzz of Ralph loops, GSD and deep agent frameworks (1) , it
+        Beyond the buzz of Ralph loops, GSD and deep agent frameworks<sup>1</sup>, it
         is hard to go on LinkedIn in 2026 and not be force fed articles on the
         impact of AI.
       </p>
@@ -18,9 +18,9 @@ export function BeyondTheHype() {
       <p>
         This most recent change does feel different, with some describing this
         as the first look at AGI. Stories such as that of a Shopify CEO 'one
-        shotting' some MRI software (2), and my own experience with using CLI
+        shotting' some MRI software<sup>2</sup>, and my own experience with using CLI
         Vibe Coding tools has made it hard to maintain skepticism on the quality
-        of AI code output. (3)(4)
+        of AI code output.<sup>3,4</sup>
       </p>
 
       <p>

@@ -11,14 +11,14 @@ export function WhenBuildingGetsEasy() {
         where it can really no longer be considered 'Vibe Coding"; implying that
         the human does all the planning and the agent just outputs text. We now
         have agents that can plan, architect, debug, design, and interact with
-        complex codebases. (1) It is now better described as "AI Augmented
+        complex codebases.<sup>1</sup> It is now better described as "AI Augmented
         Development" or "Vibe Development".
       </p>
 
       <p>
         Using AI tools is no longer limited to wannabe's such as myself who
         share their latest project via LinkedIn at http://localhost:3000, it is being
-        used effectively by the best coders in the world on real projects. (2)
+        used effectively by the best coders in the world on real projects.<sup>2</sup>
       </p>
 
       <p>
@@ -108,14 +108,14 @@ export function WhenBuildingGetsEasy() {
       <p>
         Microsoft for example built it's early hegemony in software by becoming
         the no-brainer platform for early micro-processor and PC development,
-        becoming the platform that everybody used, and new how to use. (2)
+        becoming the platform that everybody used, and new how to use.<sup>3</sup>
       </p>
 
       <p>
         AI presents the possibility of a user interface which can be fully
         customisable in terms of its capability, and usability. Why would any
         business or user turn to horizontal or generic software, when they could
-        have a fully customised version, down to a user level? (3)
+        have a fully customised version, down to a user level?<sup>4</sup>
       </p>
 
       <p>
@@ -139,7 +139,7 @@ export function WhenBuildingGetsEasy() {
         </p>
 
         <p>
-          <strong>B.</strong> Build the software or elements fo it themselves (4)
+          <strong>B.</strong> Build the software or elements fo it themselves<sup>5</sup>
         </p>
 
         <p className="!mb-2">Or</p>

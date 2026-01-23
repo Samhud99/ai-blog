@@ -147,6 +147,13 @@ a:hover {
   overflow-wrap: anywhere;
 }
 
+.prose sup {
+  font-size: 0.7em;
+  color: var(--color-coral);
+  font-weight: 500;
+  margin-left: 1px;
+}
+
 .prose blockquote {
   border-left: 2px solid var(--color-coral);
   padding-left: 1.5rem;
