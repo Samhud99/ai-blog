@@ -221,6 +221,18 @@ export function WhenBuildingGetsEasy() {
           </a>
         </li>
       </ul>
+
+      <hr />
+
+      <p>
+        <em>
+          The views and opinions expressed in this article are solely those of
+          the author and do not represent, reflect, or constitute the official
+          position of any organization, company, or entity with which the author
+          is or has been affiliated. The content herein is provided for general
+          informational purposes only.
+        </em>
+      </p>
     </>
   );
 }
