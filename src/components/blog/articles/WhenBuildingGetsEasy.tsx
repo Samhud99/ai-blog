@@ -17,8 +17,7 @@ export function WhenBuildingGetsEasy() {
 
       <p>
         Using AI tools is no longer limited to wannabe's such as myself who
-        share their latest project via LinkedIn at{" "}
-        <a href="http://localhost:3000">http://localhost:3000</a>, it is being
+        share their latest project via LinkedIn at http://localhost:3000, it is being
         used effectively by the best coders in the world on real projects. (2)
       </p>
 
@@ -134,20 +133,22 @@ export function WhenBuildingGetsEasy() {
         businesses and consumers options to:
       </p>
 
-      <p>
-        <strong>A.</strong> Replace subscriptions with a cheaper new entrant
-      </p>
+      <div className="bg-coral/10 border border-coral/30 rounded-lg p-6 my-6">
+        <p className="!mt-0">
+          <strong>A.</strong> Replace subscriptions with a cheaper new entrant
+        </p>
 
-      <p>
-        <strong>B.</strong> Build the software or elements fo it themselves (4)
-      </p>
+        <p>
+          <strong>B.</strong> Build the software or elements fo it themselves (4)
+        </p>
 
-      <p>Or</p>
+        <p className="!mb-2">Or</p>
 
-      <p>
-        <strong>C.</strong> Use the leverage created by those options to
-        negotiate a better contract.
-      </p>
+        <p className="!mb-0">
+          <strong>C.</strong> Use the leverage created by those options to
+          negotiate a better contract.
+        </p>
+      </div>
 
       <p>The same equation exists in the M&A space in company valuation.</p>
 
