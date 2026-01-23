@@ -108,7 +108,7 @@ export function WhenBuildingGetsEasy() {
       <p>
         Microsoft for example built it's early hegemony in software by becoming
         the no-brainer platform for early micro-processor and PC development,
-        becoming the platform that everybody used, and new how to use.<sup>3</sup>
+        becoming the platform that everybody used, and knew how to use.<sup>3</sup>
       </p>
 
       <p>
