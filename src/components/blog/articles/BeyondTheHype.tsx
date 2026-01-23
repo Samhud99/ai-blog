@@ -19,7 +19,7 @@ export function BeyondTheHype() {
         This most recent change does feel different, with some describing this
         as the first look at AGI. Stories such as that of a Shopify CEO 'one
         shotting' some MRI software<sup>2</sup>, and my own experience with using CLI
-        Vibe Coding tools has made it hard to maintain skepticism on the quality
+        Vibe Coding tools has made it hard to maintain scepticism on the quality
         of AI code output.<sup>3,4</sup>
       </p>
 
