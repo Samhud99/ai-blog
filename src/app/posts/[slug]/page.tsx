@@ -84,12 +84,12 @@ export default async function PostPage({ params }: Props) {
         </article>
 
         {/* Desktop: Decorative image on right side */}
-        <div className="hidden xl:block ml-8 flex-shrink-0 pointer-events-none">
+        <div className="hidden xl:flex flex-1 justify-center pointer-events-none">
           <Image
             src="/desk-illustration.jpg"
             alt=""
-            width={320}
-            height={700}
+            width={480}
+            height={1050}
             className="object-contain object-top"
             aria-hidden="true"
             priority
