@@ -139,7 +139,7 @@ export function WhenBuildingGetsEasy() {
         </p>
 
         <p>
-          <strong>B.</strong> Build the software or elements fo it themselves<sup>5</sup>
+          <strong>B.</strong> Build the software or elements of it themselves<sup>5</sup>
         </p>
 
         <p className="!mb-2">Or</p>
