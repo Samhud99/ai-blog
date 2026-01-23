@@ -15,7 +15,6 @@ const contents: NavItem[] = [
 
 const appendices: NavItem[] = [
   { label: "About", href: "/about", page: "2" },
-  { label: "Contact", href: "/contact", page: "3" },
 ];
 
 function NavLink({ item, isActive }: { item: NavItem; isActive: boolean }) {
@@ -84,8 +83,8 @@ export function Sidebar() {
 
         {/* Footer info */}
         <div className="pt-8 mt-8 border-t border-border text-sm text-text-muted">
-          <p>Essays on AI</p>
-          <p className="mt-1">Updated weekly</p>
+          <p>The Business Impact of AI</p>
+          <p className="mt-2">By Sam Hudson</p>
         </div>
       </nav>
     </aside>

@@ -1,8 +1,9 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "About Thinking Machines and its author.",
+  description: "About All Vibe, No Code and Sam Hudson.",
 };
 
 export default function AboutPage() {
@@ -12,40 +13,48 @@ export default function AboutPage() {
         <header className="mb-12">
           <p className="section-label mb-4">Appendix</p>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight">
-            About this publication.
+            About
           </h1>
         </header>
 
         <div className="prose">
           <p>
-            Thinking Machines is a collection of essays exploring the rapidly
-            evolving landscape of artificial intelligence. Here, we examine the
-            technical foundations, philosophical implications, and practical
-            applications of machine learning and neural networks.
+            <strong>All Vibe, No Code</strong> is a blog exploring how AI
+            development tools are reshaping software economics, defensibility,
+            and the balance of power between vendors and buyers.
           </p>
 
           <p>
-            The goal is to make complex AI concepts accessible without
-            oversimplifying them. Whether you&apos;re a researcher, engineer, or
-            curious observer, you&apos;ll find thoughtful analysis that respects
-            your intelligence while remaining approachable.
+            Writing articles on AI which aim to cut through the noise.
           </p>
 
-          <h2>Topics</h2>
-          <ul>
-            <li>Large language models and their capabilities</li>
-            <li>AI safety and alignment research</li>
-            <li>Machine learning fundamentals</li>
-            <li>The intersection of AI and society</li>
-            <li>Technical deep dives into architectures and algorithms</li>
-          </ul>
-
-          <h2>Contact</h2>
+          <h2>About the Author</h2>
           <p>
-            For inquiries, corrections, or suggestions, reach out via{" "}
-            <a href="mailto:hello@example.com">email</a>.
+            I&apos;m Sam Hudson. You can find me on{" "}
+            <a
+              href="https://www.linkedin.com/in/samhudson99/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>{" "}
+            or check out my work on{" "}
+            <a
+              href="https://github.com/Samhud99"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            .
           </p>
         </div>
+
+        <nav className="mt-16 pt-8 border-t border-border">
+          <Link href="/" className="text-sm text-text-muted hover:text-coral transition-colors">
+            ← Back to archive
+          </Link>
+        </nav>
       </article>
     </div>
   );

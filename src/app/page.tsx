@@ -10,11 +10,11 @@ export default function Home() {
       <header className="mb-16 max-w-2xl">
         <p className="section-label mb-4">Archive</p>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight mb-6 font-bold text-coral">
-          Essays on artificial intelligence.
+          All Vibe, No Code
         </h1>
         <p className="text-text-muted text-lg leading-relaxed">
-          Exploring the frontier of machine learning, neural networks, and the
-          evolving relationship between humans and intelligent systems.
+          Exploring how AI development tools are reshaping software economics,
+          defensibility, and the balance of power between vendors and buyers.
         </p>
       </header>
 

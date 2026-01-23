@@ -17,15 +17,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Thinking Machines",
-    template: "%s | Thinking Machines",
+    default: "AI - All Vibe, No Code",
+    template: "%s | All Vibe, No Code",
   },
   description:
-    "Essays on artificial intelligence, machine learning, and the future of human-computer interaction.",
+    "Exploring how AI development tools are reshaping software economics, defensibility, and the balance of power between vendors and buyers.",
   openGraph: {
-    title: "Thinking Machines",
+    title: "All Vibe, No Code",
     description:
-      "Essays on artificial intelligence, machine learning, and the future of human-computer interaction.",
+      "Exploring how AI development tools are reshaping software economics, defensibility, and the balance of power between vendors and buyers.",
     type: "website",
   },
 };
