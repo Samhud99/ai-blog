@@ -61,8 +61,8 @@ export default async function PostPage({ params }: Props) {
   const content = getArticleContent(slug);
 
   return (
-    <div className="min-h-screen p-8 lg:p-16">
-      <article className="max-w-2xl">
+    <div className="min-h-screen p-4 sm:p-8 lg:p-16 overflow-x-hidden">
+      <article className="max-w-2xl overflow-hidden">
         <ArticleHeader
           title={post.title}
           date={post.date}

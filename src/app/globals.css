@@ -110,6 +110,8 @@ a:hover {
   font-size: var(--font-size-lg);
   line-height: 1.8;
   color: var(--color-text);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .prose h2 {
@@ -132,6 +134,8 @@ a:hover {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 
 .prose blockquote {
@@ -214,6 +218,21 @@ button:focus-visible {
 /* Ensure sufficient color contrast for text */
 .text-muted {
   color: var(--color-text-muted);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .prose {
+    font-size: var(--font-size-base);
+  }
+
+  .prose h2 {
+    font-size: var(--font-size-xl);
+  }
+
+  .prose h3 {
+    font-size: var(--font-size-lg);
+  }
 }
 
 /* Reduced motion preference */
