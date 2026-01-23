@@ -65,7 +65,7 @@ export default async function PostPage({ params }: Props) {
     <div className="min-h-screen p-4 sm:p-8 lg:p-16 overflow-x-hidden">
       <div className="flex">
         {/* Article content */}
-        <article className="max-w-2xl overflow-hidden flex-shrink-0">
+        <article className="w-full max-w-2xl overflow-hidden xl:flex-shrink-0">
           <ArticleHeader
             title={post.title}
             date={post.date}
