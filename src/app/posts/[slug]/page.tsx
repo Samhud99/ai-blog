@@ -72,6 +72,18 @@ export default async function PostPage({ params }: Props) {
             tags={post.tags}
           />
 
+          {/* Mobile: Centered image */}
+          <div className="xl:hidden flex justify-center my-8">
+            <Image
+              src="/desk-mobile.jpg"
+              alt=""
+              width={280}
+              height={200}
+              className="object-contain"
+              aria-hidden="true"
+            />
+          </div>
+
           <div className="prose">
             {content}
           </div>
