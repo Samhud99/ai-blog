@@ -8,7 +8,7 @@ export function WhenBuildingGetsEasy() {
 
       <p>
         The quality of AI coding tools has improved conceptually, to the point
-        where it can really no longer be considered 'Vibe Coding"; implying that
+        where it can really no longer be considered "Vibe Coding", implying that
         the human does all the planning and the agent just outputs text. We now
         have agents that can plan, architect, debug, design, and interact with
         complex codebases.<sup>1</sup> It is now better described as "AI Augmented
@@ -16,7 +16,7 @@ export function WhenBuildingGetsEasy() {
       </p>
 
       <p>
-        Using AI tools is no longer limited to wannabe's such as myself who
+        Using AI tools is no longer limited to wannabes such as myself who
         share their latest project via LinkedIn at http://localhost:3000, it is being
         used effectively by the best coders in the world on real projects.<sup>2</sup>
       </p>
@@ -29,7 +29,7 @@ export function WhenBuildingGetsEasy() {
       <p>
         Traditionally, companies would be able to build out proprietary
         codebases. The features this codebase creates add product value to
-        customers, Company gets more customers who pay more money.
+        customers, company gets more customers who pay more money.
       </p>
 
       <p>
@@ -106,7 +106,7 @@ export function WhenBuildingGetsEasy() {
       <h2>4. Product Hegemony - Usability through network effect</h2>
 
       <p>
-        Microsoft for example built it's early hegemony in software by becoming
+        Microsoft, for example, built its early hegemony in software by becoming
         the no-brainer platform for early micro-processor and PC development,
         becoming the platform that everybody used, and knew how to use.<sup>3</sup>
       </p>
@@ -120,7 +120,7 @@ export function WhenBuildingGetsEasy() {
 
       <p>
         <em>
-          (Note, This is in reference to the Microsoft business model in the
+          (Note, this is in reference to the Microsoft business model in the
           very early days, not today)
         </em>
       </p>
@@ -129,7 +129,7 @@ export function WhenBuildingGetsEasy() {
 
       <p>
         All of this accumulates to put pressure on SaaS providers as the
-        sellers. With the price of software development down, It now affords
+        sellers. With the price of software development down, it now affords
         businesses and consumers options to:
       </p>
 
