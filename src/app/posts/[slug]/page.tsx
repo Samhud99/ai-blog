@@ -6,6 +6,7 @@ import { ArticleHeader } from "@/components/blog/ArticleHeader";
 import { getAllPosts, getPostBySlug } from "@/lib/posts";
 import { WhenBuildingGetsEasy } from "@/components/blog/articles/WhenBuildingGetsEasy";
 import { BeyondTheHype } from "@/components/blog/articles/BeyondTheHype";
+import { AICompetitiveAdvantage } from "@/components/blog/articles/AICompetitiveAdvantage";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -46,8 +47,25 @@ function getArticleContent(slug: string) {
       return <WhenBuildingGetsEasy />;
     case "beyond-the-hype-on-demand-code-generation":
       return <BeyondTheHype />;
+    case "ai-is-a-competitive-advantage":
+      return <AICompetitiveAdvantage />;
     default:
       return null;
+  }
+}
+
+function getArticleImages(slug: string) {
+  switch (slug) {
+    case "ai-is-a-competitive-advantage":
+      return {
+        mobile: { src: "/competitive-advantage-mobile.png", width: 320, height: 140 },
+        desktop: { src: "/competitive-advantage-desktop.png", width: 336, height: 768 },
+      };
+    default:
+      return {
+        mobile: { src: "/desk-mobile.jpg", width: 280, height: 200 },
+        desktop: { src: "/desk-illustration.jpg", width: 480, height: 1050 },
+      };
   }
 }
 
@@ -60,6 +78,7 @@ export default async function PostPage({ params }: Props) {
   }
 
   const content = getArticleContent(slug);
+  const images = getArticleImages(slug);
 
   return (
     <div className="min-h-screen p-4 sm:p-8 lg:p-16 overflow-x-hidden">
@@ -75,10 +94,10 @@ export default async function PostPage({ params }: Props) {
           {/* Mobile: Centered image */}
           <div className="xl:hidden flex justify-center my-8">
             <Image
-              src="/desk-mobile.jpg"
+              src={images.mobile.src}
               alt=""
-              width={280}
-              height={200}
+              width={images.mobile.width}
+              height={images.mobile.height}
               className="object-contain"
               aria-hidden="true"
             />
@@ -98,10 +117,10 @@ export default async function PostPage({ params }: Props) {
         {/* Desktop: Decorative image on right side */}
         <div className="hidden xl:flex flex-1 justify-center pointer-events-none">
           <Image
-            src="/desk-illustration.jpg"
+            src={images.desktop.src}
             alt=""
-            width={480}
-            height={1050}
+            width={images.desktop.width}
+            height={images.desktop.height}
             className="object-contain object-top"
             aria-hidden="true"
             priority

@@ -2,6 +2,14 @@ import { Post } from "./types";
 
 export const posts: Post[] = [
   {
+    slug: "ai-is-a-competitive-advantage",
+    title: "AI is a Competitive Advantage",
+    excerpt:
+      "Why some moats are eroding while others remain. If the only thing protecting a moat was that intelligence was scarce and expensive, AI is removing that protection.",
+    date: "February 2026",
+    tags: ["defensibility", "software", "strategy"],
+  },
+  {
     slug: "when-building-gets-easy-whats-left-to-defend",
     title: "When Building Gets Easy, What's Left to Defend?",
     excerpt:
